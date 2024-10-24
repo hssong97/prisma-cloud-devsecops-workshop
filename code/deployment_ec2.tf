@@ -19,11 +19,11 @@ echo "<h1>Deployed via Terraform</h1>" | sudo tee /var/www/html/index.html
 EOF
 
   tags = {
-    git_commit           = "d4c35e0270bfd542051278ca30b4b3872c1ae0b2"
+    git_commit           = "8ef6a3da097a0c722bf6f2e19da6dbd7dd389353"
     git_file             = "code/deployment_ec2.tf"
-    git_last_modified_at = "2024-01-26 23:01:56"
-    git_last_modified_by = "tprendervill@paloaltonetworks.com"
-    git_modifiers        = "tprendervill"
+    git_last_modified_at = "2024-10-24 22:16:04"
+    git_last_modified_by = "78056306+hssong97@users.noreply.github.com"
+    git_modifiers        = "78056306+hssong97/tprendervill"
     git_org              = "hssong97"
     git_repo             = "prisma-cloud-devsecops-workshop"
     yor_name             = "web_host"
