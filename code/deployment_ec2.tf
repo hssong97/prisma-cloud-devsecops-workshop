@@ -19,9 +19,9 @@ echo "<h1>Deployed via Terraform</h1>" | sudo tee /var/www/html/index.html
 EOF
 
   tags = {
-    git_commit           = "8ef6a3da097a0c722bf6f2e19da6dbd7dd389353"
+    git_commit           = "4893d5ebc4840b52106ebfd4b5c6b76811da9419"
     git_file             = "code/deployment_ec2.tf"
-    git_last_modified_at = "2024-10-24 22:16:04"
+    git_last_modified_at = "2024-10-24 22:14:35"
     git_last_modified_by = "78056306+hssong97@users.noreply.github.com"
     git_modifiers        = "78056306+hssong97/tprendervill"
     git_org              = "hssong97"
